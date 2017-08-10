@@ -6,10 +6,6 @@ if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
 
-# User specific environment and startup programs
-
-PATH=$PATH:$HOME/bin:/ltstuff/ltprogs/bin:/ltstuff/ltprogs/sbin
-
 export PATH LESS HISTFILESIZE HISTSIZE
 export CLICOLOR=1
 export TERM=xterm-256color
