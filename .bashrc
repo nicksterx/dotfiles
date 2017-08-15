@@ -6,3 +6,5 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
+alias reload='source ~/.bashrc'
+alias iamroot='sudo -u `whoami` /usr/bin/sudo /bin/su -'
